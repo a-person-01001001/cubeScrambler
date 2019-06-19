@@ -14,3 +14,7 @@ _D_ is one 90º clockwise turn on the down (bottom) side.
 When you put an apostrophe after the notation (U'), that makes it a 90º counter-clockwise turn.
 When you put a "2" after the notation (U2), that makes it a 180º clockwise turn (same thing as a 180º counter-clockwise turn).
 
+
+
+###### im really bad at coding aaa
+
