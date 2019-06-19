@@ -1,6 +1,6 @@
+// a-person-01001001's original code
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 // A rubiks cube scramble generator
 
@@ -35,6 +35,8 @@ namespace Application
                 //depending on user input we will go through each one of them
                 for (int i = 0; i <= length; i++)
                 {
+                    // a-person-01001001's original code
+
                     //randomly chooose a turn
                     turnsChosen = r.Next(1, 7); 
 
@@ -53,6 +55,8 @@ namespace Application
                 //give an option to do it again
                 Redo();
             }
+            
+            // a-person-01001001's original code (extreme protection measures)
 
             catch (Exception)
             {
@@ -63,6 +67,8 @@ namespace Application
         /// <summary>
         /// Redo this instance.
         /// </summary>
+        // a-person-01001001's original code
+
         public static void Redo()
         {
             Console.WriteLine("Next scramble. Type 'Y' if you want it:\t");
@@ -80,6 +86,8 @@ namespace Application
             {
                 Console.WriteLine("Error.");
                 Redo();
+                // a-person-01001001's original code
+
             }
         }
 
@@ -98,6 +106,7 @@ namespace Application
                 { 2, "R" },
                 { 3, "U" },
                 { 4, "L" },
+                // a-person-01001001's original code
                 { 5, "D" },
                 { 6, "B" }
             };
@@ -107,11 +116,16 @@ namespace Application
             {
                 return turnDictionary[turn]+"' ";
             }
+            // a-person-01001001's original code
+
             else if (prime == 3)
             {
+                // a-person-01001001's original code
+
                 return turnDictionary[turn] + "2 ";
             }
             return turnDictionary[turn] + " ";
         }
     }
 } 
+// a-person-01001001's original code
